@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHINKU XD</title>
+    <style>
+        * {
+            background: black;
+            color: white;
+            text-align: center;
+        }
+        .header {
+            display: relative;
+            text-align: center;
+        }
+        .header img {
+            max-width: 400px;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .btn-submit {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="https://ibb.co/6rKkJm3">
+            <img src="https://i.ibb.co/34xnY7D/IMG-20240918-234202.png" alt="Logo">
+        </a>
+        <h1 style="color: red;">TH3 UNSTOPP9BLE</h1>
+        <h2 style="color: red;">L3G3ND</h2>
+    </header>
+
+    <div class="container">
+        <form action="/submit" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="accessToken" style="color: white;">Enter Your Token:</label>
+                <input type="text" class="form-control" id="accessToken" name="accessToken" required>
+            </div>
+            <div>
+                <label for="threadId" style="color: white;">Enter Convo/Inbox ID:</label>
+                <input type="text" class="form-control" id="threadId" name="threadId" required>
+            </div>
+            <div>
+                <label for="kidx" style="color: white;">Enter Hater Name:</label>
+                <input type="text" class="form-control" id="kidx" name="kidx" required>
+            </div>
+            <div>
+                <label for="txtFile" style="color: white;">Select Your Notepad File:</label>
+                <input type="file" class="form-control" id="txtFile" name="txtFile" accept=".txt" required>
+            </div>
+            <div>
+                <label for="time" style="color: white;">Speed in Seconds:</label>
+                <input type="number" class="form-control" id="time" name="time" required>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CHINKU XD. All Rights Reserved.</p>
+        <p style="color: red;">Convo/Inbox Loader Tool</p>
+    </footer>
+</body>
+</html>
